@@ -1,0 +1,18 @@
+.TicketTitle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background: rgba(15, 62, 107, 0.87) ;
+    font-weight: bold; 
+}
+.cTicketTitle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background: rgba(15, 62, 107, 0.87) ;
+    font-weight: bold; 
+}

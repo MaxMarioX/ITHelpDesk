@@ -1,0 +1,78 @@
+body {
+    background: url('../graphics/main.gif');
+}
+
+.Dashboard {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 600px;
+    border-radius: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Panel {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    border: none;
+    background: url('../graphics/panel.gif');
+}
+
+.Panel-A {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.Panel-A h1 {
+    float: left;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 5px;
+    color: rgb(199, 233, 10);
+}
+
+.Panel-A h2 {
+    margin-top: 23px;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.Panel-B {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.Panel-B h1 {
+    float: left;
+    text-align: right;
+    font-size: 10px;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-top: 10px;
+    color: rgb(199, 233, 10);
+}
+
+.Panel-B img {
+    float: left;
+    padding-right: 0px;
+    padding-left: 200px;
+    padding-top: 7px;
+}
+
+.Shadow {
+    left: 0%;
+    top: 0%; 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    display: none;
+}

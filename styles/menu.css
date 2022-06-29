@@ -1,0 +1,106 @@
+/*Menu zawiera się w NewTickets-Panel i jest absolute*/
+.Menu {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    border: none;
+}
+
+.Menu ul {
+    position: relative;
+    list-style-type: none;
+    left: 0px;
+    top: 0px;
+    margin-top: 0px;
+    padding-top: 2px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 13px;   
+}
+
+/*img zawiera się w .Menu i jest absolute*/
+.Menu img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding-top: 0px;
+    padding-left: 7px;
+}
+
+
+/*avigation zawiera się w .Menu i jest relative*/
+.navigation {
+    position: relative;
+    list-style-type: none;
+    left: 0px;
+    top: 0px;
+    margin-top: 0px;
+    padding-top: 2px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 13px;
+}
+
+.navigation li {
+    float: left;
+    width: 170px;
+    text-align: center;
+    position: relative;
+    height: 63px;
+    /*padding: 20px 5px 10px 5px;*/
+}
+
+.navigation li a {
+    color:#fff;
+    text-decoration:none;
+    font-weight: bold;
+    display:block;
+}
+
+.navigation li ul.subnav{
+    background:#E7F1D2;
+    width:180px;
+    clear:both;
+    display:none;
+    position:absolute;
+    top:20px;
+    border-left:2px solid #998;
+    border-right:2px solid #998;
+    border-bottom:2px solid #998;
+    z-index: 1;
+}
+
+.navigation li ul.subnav li{
+    clear:both;
+    height:40px;
+    padding-left:32px;
+    margin-left: 0px;
+    text-align:left;
+}
+
+.navigation li ul.subnav li img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.navigation li ul.subnav li a{
+    background:none;
+    font-size:13px;
+    color:#333;
+    text-decoration:none;
+    padding:10px 0;
+    border:none;
+}
+
+.navigation li ul.subnav li a:hover{
+    font-size:13px;
+    color:rgb(18, 44, 196);
+    border:none;
+}
+

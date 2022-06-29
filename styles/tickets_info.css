@@ -1,0 +1,58 @@
+.TicketDetails {
+    width: 1000px;
+    height: 320px;
+}
+
+.TicketDetails .TableA {
+    float: left;
+    width: 400px;
+    height: 320px; 
+}
+
+.TicketDetails .TableB {
+    float: left;
+    width: 600px;
+    height: 320px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);  
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-color:  rgb(1, 49, 151) rgba(15, 62, 107, 0.87);
+}
+
+.TicketDetails .TableB p{
+    padding-bottom: 15px;
+}
+
+#TicketInfo,
+#TicketInfoText {
+    font-size: 15px;
+    color: rgb(255, 255, 255);  
+}
+
+#TicketInfo tr{
+    height: 2em;
+}
+
+#TicketInfoText tr{
+    height: 150px;
+    vertical-align: top;
+}
+
+#TicketInfo #col1 {
+    width: 10em;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+#TicketInfo #col2 {
+    text-align: left;
+    padding-right: 10px;
+}
+
+#TicketInfoText #col3 {
+    width: 10em;
+    padding-left: 10px;
+    font-weight: bold;
+}
+

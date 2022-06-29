@@ -1,0 +1,35 @@
+.AssignBox {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    width: 350px;
+    height: 300px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    background: rgba(34, 140, 240, 0.849);
+    border: none;
+    display: none;
+}
+
+#AssignTicket {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding-left: 10px;    
+}
+
+#AssignTicket tr{
+    height: 2em;
+}
+
+#AssignTicket #Assigncol1 {
+    width: 10em;
+    text-align: left;
+    font-weight: bold;
+}
+
+#AssignTicket #Assigncol2 {
+    text-align: left;
+    padding-right: 10px;
+}

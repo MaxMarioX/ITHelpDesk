@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="styles/install.css" type="text/css"/>
+    <script src="scripts/jquery-library/jquery-3.2.1.js"></script>
+    <script src="scripts/install.js"></script>
+</head>
+<body>
+    <div class="InstallForm" id="InstallForm">
+        <div class="InstallBoxA" id="InstallBoxA">
+            <div class="InstallTitle">
+                <h1>Instalacja</h1>
+                <h2>Proszę uzupełnić poniższe pola.</h2>
+            </div>
+            <div class="FieldsData">
+                <span class="TextDataField">Nazwa hosta:</span></br>
+                <input type="text" name="Field-host" id="Field-host"/></br>
+                <span class="TextDataField">Nazwa użytkownika:</span></br>
+                <input type="text" name="Field-user" id="Field-user"/></br>
+                <span class="TextDataField">Hasło:</span></br>
+                <input type="password" name="Field-password" id="Field-password"/></br>
+                <input type="button" name="ButtonInstall_NA" id="ButtonInstall_NA" value="Przejdź dalej"/>                
+            </div>
+            <div class="ErrorMessage"></div>
+        </div>
+        <div class="InstallBoxB" id="InstallBoxB">
+            <div class="InstallTitle">
+                <h1>Instalacja</h1>
+                <h2>Budowanie pliku database_connect.php</h2>
+            </div>
+            <div class="FieldsData">
+                <span class="TextDataField">Nazwa hosta:</span></br>
+                <input type="text" name="Field-host-2" id="Field-host-2"/></br>
+                <span class="TextDataField">Nazwa użytkownika:</span></br>
+                <input type="text" name="Field-user-2" id="Field-user-2"/></br>
+                <span class="TextDataField">Hasło:</span></br>
+                <input type="password" name="Field-password-2" id="Field-password-2"/></br>
+                <span class="TextDataField">Powtórz hasło:</span></br>
+                <input type="password" name="Field-password-3" id="Field-password-3"/></br>
+                <span class="TextDataField">Nazwa bazy danych:</span>
+                <input type="text" name="Field-database" id="Field-database"/></br>
+                <input type="button" name="ButtonInstall_NB" id="ButtonInstall_NB" value="Przejdź dalej"/>               
+            </div>
+            <div class="ErrorMessage"></div>
+        </div>
+        <div class="InstallBoxC" id="InstallBoxC">
+            <div class="InstallTitle">
+                <h1>Instalacja</h1>
+                <h2>Stwórz konto administratora</h2>
+            </div>
+            <div class="FieldsData">
+                <span class="TextDataField">Nazwa konta:</span></br>
+                <input type="text" name="Field-admin-account" id="Field-admin-account"/></br>
+                <span class="TextDataField">Hasło:</span></br>
+                <input type="password" name="Field-admin-password" id="Field-admin-password"/></br>
+                <span class="TextDataField">Powtórz hasło:</span></br>
+                <input type="password" name="Field-admin-password-2" id="Field-admin-password-2"/></br>
+                <input type="button" name="ButtonInstall_NC" id="ButtonInstall_NC" value="Przejdź dalej"/>               
+            </div>
+            <div class="ErrorMessage"></div>
+        </div>
+        <div class="InstallBoxD" id="InstallBoxD">
+            <div class="InstallTitle">
+                <h1>Instalacja</h1>
+                <h2>Program jest gotowy do instalacji</h2>
+            </div>
+            <div class="FieldsData">
+                <input type="button" name="ButtonInstall_ND" id="ButtonInstall_ND" value="Zainstaluj"/>               
+            </div>
+            <div class="ErrorMessage"></div>
+        </div>
+    </div>
+</body>
+</html>

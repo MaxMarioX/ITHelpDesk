@@ -1,0 +1,14 @@
+.InfoBox {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    width: 1000px;
+    height: 500px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    background: url('../graphics/panel.gif');
+    border: none;
+    display: none;
+}
